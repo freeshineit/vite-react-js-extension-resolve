@@ -10,7 +10,6 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.0.0
   '@typescript-eslint/parser': ^5.54.1
   '@vitejs/plugin-legacy': ^4.0.2
-  '@vitejs/plugin-react': ^3.1.0
   '@vitejs/plugin-react-swc': ^3.2.0
   cross-env: ^7.0.3
   eslint: ^8.0.1
@@ -51,7 +50,6 @@ devDependencies:
   '@typescript-eslint/eslint-plugin': 5.55.0_342y7v4tc7ytrrysmit6jo4wri
   '@typescript-eslint/parser': 5.55.0_vgl77cfdswitgr47lm5swmv43m
   '@vitejs/plugin-legacy': 4.0.2_terser@5.16.6+vite@4.2.0
-  '@vitejs/plugin-react': 3.1.0_vite@4.2.0
   '@vitejs/plugin-react-swc': 3.2.0_vite@4.2.0
   cross-env: 7.0.3
   eslint: 8.36.0
@@ -1005,26 +1003,6 @@ packages:
 
   /@babel/plugin-transform-property-literals/7.18.6_@babel+core@7.21.3:
     resolution: {integrity: sha512-cYcs6qlgafTud3PAzrrRNbQtfpQ8+y/+M5tKmksS9+M1ckbH6kzY8MrexEM9mcA6JDsukE19iIRvAyYl463sMg==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.21.3
-      '@babel/helper-plugin-utils': 7.20.2
-    dev: true
-
-  /@babel/plugin-transform-react-jsx-self/7.21.0_@babel+core@7.21.3:
-    resolution: {integrity: sha512-f/Eq+79JEu+KUANFks9UZCcvydOOGMgF7jBrcwjHa5jTZD8JivnhCJYvmlhR/WTXBWonDExPoW0eO/CR4QJirA==}
-    engines: {node: '>=6.9.0'}
-    peerDependencies:
-      '@babel/core': ^7.0.0-0
-    dependencies:
-      '@babel/core': 7.21.3
-      '@babel/helper-plugin-utils': 7.20.2
-    dev: true
-
-  /@babel/plugin-transform-react-jsx-source/7.19.6_@babel+core@7.21.3:
-    resolution: {integrity: sha512-RpAi004QyMNisst/pvSanoRdJ4q+jMCWyk9zdw/CyLB9j8RXEahodR6l2GyttDRyEVWZtbN+TpLiHJ3t34LbsQ==}
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
@@ -2124,22 +2102,6 @@ packages:
     dependencies:
       '@swc/core': 1.3.41
       vite: 4.2.0_34kcdhufoak4xbjfji44lxubke
-    dev: true
-
-  /@vitejs/plugin-react/3.1.0_vite@4.2.0:
-    resolution: {integrity: sha512-AfgcRL8ZBhAlc3BFdigClmTUMISmmzHn7sB2h9U1odvc5U/MjWXsAaz18b/WoppUTDBzxOJwo2VdClfUcItu9g==}
-    engines: {node: ^14.18.0 || >=16.0.0}
-    peerDependencies:
-      vite: ^4.1.0-beta.0
-    dependencies:
-      '@babel/core': 7.21.3
-      '@babel/plugin-transform-react-jsx-self': 7.21.0_@babel+core@7.21.3
-      '@babel/plugin-transform-react-jsx-source': 7.19.6_@babel+core@7.21.3
-      magic-string: 0.27.0
-      react-refresh: 0.14.0
-      vite: 4.2.0_34kcdhufoak4xbjfji44lxubke
-    transitivePeerDependencies:
-      - supports-color
     dev: true
 
   /acorn-jsx/5.3.2_acorn@8.8.2:
@@ -5614,11 +5576,6 @@ packages:
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
-    dev: true
-
-  /react-refresh/0.14.0:
-    resolution: {integrity: sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==}
-    engines: {node: '>=0.10.0'}
     dev: true
 
   /react-router-dom/6.9.0_biqbaboplfbrettd7655fr4n2y:
