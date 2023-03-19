@@ -3,7 +3,11 @@ module.exports = {
     browser: true,
     es2021: true
   },
-  extends: ['plugin:react/recommended', 'standard-with-typescript'],
+  extends: [
+    'plugin:react/recommended',
+    'plugin:react-hooks/recommended',
+    'standard-with-typescript'
+  ],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -32,6 +36,7 @@ module.exports = {
       {
         extensions: ['.js', '.jsx', '.ts', '.tsx']
       }
-    ]
+    ],
+    'react-hooks/exhaustive-deps': 2
   }
 }
