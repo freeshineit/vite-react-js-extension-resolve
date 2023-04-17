@@ -1,13 +1,5 @@
 module.exports = {
-  env: {
-    browser: true,
-    es2021: true
-  },
-  extends: [
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'standard-with-typescript'
-  ],
+  extends: ['xx'],
   overrides: [],
   parserOptions: {
     ecmaVersion: 'latest',
@@ -17,26 +9,27 @@ module.exports = {
       'tsconfig.node.json',
       'jest.config.ts',
       'vite.config.ts',
-      'vitest.setup.ts'
-    ]
+      'vitest.setup.ts',
+    ],
   },
-  plugins: ['react'],
   rules: {
-    '@typescript-eslint/space-before-function-paren': 'off',
-    '@typescript-eslint/explicit-function-return-type': 'off',
-    '@typescript-eslint/strict-boolean-expressions': 'off',
-    '@typescript-eslint/no-confusing-void-expression': 'off',
-    '@typescript-eslint/triple-slash-reference': 'off',
-    '@typescript-eslint/indent': 'off',
-    '@typescript-eslint/await-thenable': 'off',
-    'multiline-ternary': 'off',
-    '@typescript-eslint/no-unused-vars': 1, // warn
+    'no-unused-vars': [
+      'warn',
+      {
+        varsIgnorePattern: 'React',
+      },
+    ],
+    '@typescript-eslint/no-unused-vars': [
+      'warn',
+      {
+        varsIgnorePattern: 'React',
+      },
+    ],
     'react/jsx-filename-extension': [
       2,
       {
-        extensions: ['.js', '.jsx', '.ts', '.tsx']
-      }
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
     ],
-    'react-hooks/exhaustive-deps': 2
-  }
-}
+  },
+};

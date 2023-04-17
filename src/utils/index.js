@@ -1,3 +1,3 @@
-export const getName = name => {
-  return name
-}
+export const getName = (name) => {
+  return name;
+};
