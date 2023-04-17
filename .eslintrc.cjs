@@ -13,18 +13,6 @@ module.exports = {
     ],
   },
   rules: {
-    'no-unused-vars': [
-      'warn',
-      {
-        varsIgnorePattern: 'React',
-      },
-    ],
-    '@typescript-eslint/no-unused-vars': [
-      'warn',
-      {
-        varsIgnorePattern: 'React',
-      },
-    ],
     'react/jsx-filename-extension': [
       2,
       {

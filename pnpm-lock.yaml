@@ -11,7 +11,7 @@ specifiers:
   '@vitejs/plugin-react': ^3.1.0
   cross-env: ^7.0.3
   eslint: ^8.38.0
-  eslint-config-xx: ^1.1.3
+  eslint-config-xx: ^1.1.4
   husky: ^8.0.3
   only-allow: ^1.1.1
   prettier: ^2.8.4
@@ -44,7 +44,7 @@ devDependencies:
   '@vitejs/plugin-react': 3.1.0_vite@4.2.0
   cross-env: 7.0.3
   eslint: 8.38.0
-  eslint-config-xx: 1.1.3
+  eslint-config-xx: 1.1.4
   husky: 8.0.3
   only-allow: 1.1.1
   prettier: 2.8.4
@@ -4463,10 +4463,10 @@ packages:
       eslint-plugin-promise: 6.1.1_eslint@8.38.0
     dev: true
 
-  /eslint-config-xx/1.1.3:
+  /eslint-config-xx/1.1.4:
     resolution:
       {
-        integrity: sha512-XbDtl9/G+MiBo6XFf6P9LUfQu351zvOHcCXrWbvWB0R49srJ5ajEhbF4vIjDGA2+4V8ci8wTRZFAhNLQ/EJTDw==,
+        integrity: sha512-QLF6AkLdh4MmTfrMeHuXmD8VW0DGfsCjBK2hM/Qm5wi5GTQs1cyMfEqmiUwE49Phm5cHuBXuXVcr1Rb6qlOg5Q==,
       }
     engines: { node: '>=14.0.0' }
     dependencies:
